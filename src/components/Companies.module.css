@@ -8,6 +8,7 @@
   padding: 1rem 2rem;
   background-color: var(--primary-color);
   border: none;
+  width: 11rem;
   padding: 1.5rem;
   align-self: center;
 }
