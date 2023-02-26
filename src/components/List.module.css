@@ -1,0 +1,16 @@
+.list {
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+.list-item {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+.text {
+  font-size: 1.4rem;
+}
+.icon {
+  font-weight: bold;
+  color: blue;
+}

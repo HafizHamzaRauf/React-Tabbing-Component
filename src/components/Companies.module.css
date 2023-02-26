@@ -1,0 +1,29 @@
+.companies {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 1.5rem;
+  align-self: center;
+}
+.active {
+  color: rgb(137, 137, 229);
+  border-left: 4px solid rgb(137, 137, 229);
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(137, 137, 229);
+  border-left: 4px solid rgb(137, 137, 229);
+}
+@media (max-width: 991px) {
+  .companies {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

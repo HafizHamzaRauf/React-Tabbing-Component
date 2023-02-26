@@ -1,0 +1,21 @@
+.description {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.title {
+  font-weight: normal;
+}
+.company {
+  background-color: rgb(206, 219, 231);
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: rgb(138, 138, 138);
+}
+.date {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
